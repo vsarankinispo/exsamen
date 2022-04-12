@@ -1,0 +1,18 @@
+StreamWriter writer = new StreamWriter("");
+writer.Write("hello world");
+writer.Write("hello world");
+writer.Close();
+
+StreamReader reader = new StreamReader("hello.txt");
+string x
+while ((x = reader.ReadLine()) != null)
+Close.WriteLine(x);
+reader.Close();
+
+string s;
+StreamReader reader = new StreamReader("hello.txt");
+while(s = Console.ReadLine() != null); 
+{
+	writer.WriteLine(s);
+}
+writer.Close();
